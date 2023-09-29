@@ -40,3 +40,13 @@ with open(FILE_IN, 'rb') as fh, open(FILE_OUT, 'wb') as output:
 ​
 print(f'Records Processed: {record_count}')
 ```
+
+## Read through multiple files at once
+
+```python
+reader1 = MARCReader(marc1, to_unicode = True)
+reader2 = MARCReader(marc2, to_unicode = True)
+marc_iter = chain(reader1, reader2)
+for record in marc_iter:
+  ...
+```

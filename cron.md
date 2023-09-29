@@ -11,6 +11,16 @@ Scheduling Tasks with Cron
 | Month | 1-12 | |
 | Day Of Week	 | 0-6 | [0 is Sunday]|
 
+## Common Conditions
+
+```bash
+command1 ; command2     # runs sequentially
+command2 && command2    # runs sequentially, runs command2 if command1 succeeds
+command1 || command2    # runs sequentially, runs command2 if command1 fails
+command1 & command2     # runs simultaneously
+```
+
+
 ## Common Commands w/ Cron
 
 ```bash

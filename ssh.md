@@ -9,4 +9,8 @@ ssh Quick Start
 ssh-keygen -t rsa -b 4096 -f <name of keypair>
 ```
 
-* Using an ssh config file
+* Generate keys on local system, if you haven't already
+* Add your key(s) to your local system (ssh-add …)
+  * `ssh-add -K ~/.ssh/id_rsa.pub`
+* Copy to the remote server:
+  * `ssh-copy-id -i ~/.ssh/id_rsa.pub me@email.com`

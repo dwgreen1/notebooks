@@ -97,3 +97,21 @@ find cats
 # Return cat at index 1
 show 1
 ```
+
+### Holdings Data in OhioLINK
+```bash
+# Yaz Connection
+yaz-client olc.ohiolink.edu:210
+
+# Open INNOPAC databases
+open olc.ohiolink.edu:210/INNOPAC
+
+base INNOPAC
+
+# Include Holdings Format
+format 1.2.840.10003.5.102
+
+# Find by OCLC number
+
+
+```

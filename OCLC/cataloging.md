@@ -1,5 +1,12 @@
-OCLC
+OCLC - Cataloging
 ================================
+
+## Encoding Levels
+* Align OCLC-MARC encoding levels with MARC 21's
+* OCLC cataloging libraries may now use most MARC21 and OCLC codes:
+  * -- blank, 1, 2, 3, 4, 5, 7, 8 or K
+* Previously, OCLC cataloging participating libraires could only enter records with I -- Full Level, K -- Minimal Level, or 3 -- Abbreviated Level
+* Libraries are encouraged to use blank instead of I for Full level and 7 instead of K for Minimal level cataloging
 
 ## RECORD MANAGER CHEAT SHEET
 
